@@ -1,17 +1,14 @@
-# Comentários
+São coisas que permitem que browsers adiocionem features a fim de colocar em uso alguma novidade que vemos no CSS.
 
-- Não irá afetar o seu código
-- Ajuda a lembrar blocos de códigos
-- Deixa dicas para leitura
-- Ajuda outros a entenderem
-- Nunca esqueça de fechar um comentário aberto
+Exemplos:
 
-Comentários começam com `/*` e terminam com `*/`
+p {
+-webkit-background-clip: text; /_Chrome, Safari, iOS e Android_/
+-moz-background-clip: text; /_ Mozilla (Firefox) _/
+-ms-background-clip: text; /_ Internet Explorer ou Edge_/
+-o-background-clip: text; /_ Opera _/
+Você também pode consultar se a feature pode ser utilizada através dos sites:
 
-```css
+https://ireade.github.io/which-vendor-prefix
 
-<!--    ->
-
-/*
-*/
-```
+https://caniuse.com

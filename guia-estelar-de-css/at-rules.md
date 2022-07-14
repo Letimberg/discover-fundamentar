@@ -1,17 +1,36 @@
-# Comentários
+# At Rules
 
-- Não irá afetar o seu código
-- Ajuda a lembrar blocos de códigos
-- Deixa dicas para leitura
-- Ajuda outros a entenderem
-- Nunca esqueça de fechar um comentário aberto
+- Está relacionado ao comportamento do CSS
+- Começa com o sinal de `@` seguido do identificador e valor
 
-Comentários começam com `/*` e terminam com `*/`
+## exemplos comuns
+
+- @import /_ incluir um CSS externo _/
+
+- @media /_ regras condicionais para dispositivos _/
+
+- @font-face /_ fontes externas _/
+
+- @keyframes /_ Animation _/
 
 ```css
 
-<!--    ->
+@import url("http://local.com/style.css")
+serve para incluir um CSS externo.
 
-/*
-*/
+@media (min-width: 500px) {
+  são regras condicionais para vários dispositivos.
+
+}
+
+@font-face {
+  é para colocar fontes externas.
+
+}
+
+@keyframes {
+  serve para as animations do CSS.
+  }
+
+
 ```

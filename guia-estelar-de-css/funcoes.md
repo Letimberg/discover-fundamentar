@@ -1,17 +1,7 @@
-# Comentários
+Um tipo de valor existente no CSS, é estruturado com um nome seguido de abre e fecha parênteses.
 
-- Não irá afetar o seu código
-- Ajuda a lembrar blocos de códigos
-- Deixa dicas para leitura
-- Ajuda outros a entenderem
-- Nunca esqueça de fechar um comentário aberto
+Recebe um argumento, que são seus valores.
 
-Comentários começam com `/*` e terminam com `*/`
+Um exemplo de função é:
 
-```css
-
-<!--    ->
-
-/*
-*/
-```
+color: rgb(255,0,100);
